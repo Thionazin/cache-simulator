@@ -1,2 +1,7 @@
 # cache-simulator
-A command line cache simulator. Code could be more efficient and take up less lines, but this thing works.
+A command line cache simulator. Simulates a basic cache, similar to the 351 cache simulator hosted by the University of Washington.
+
+## To launch:
+```
+python cachesimulator.py "name of ram file"
+```

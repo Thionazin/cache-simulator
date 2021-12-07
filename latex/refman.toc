@@ -1,0 +1,39 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}cache-\/simulator}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}To launch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Namespace Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Namespace List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Namespace Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}cachesimulator Namespace Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Detailed Description}{6}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Function Documentation}{6}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}activate()}{6}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}config()}{7}{subsubsection.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}dump()}{7}{subsubsection.3.1.2.3}%
+\contentsline {subsubsection}{\numberline {3.1.2.4}flush()}{7}{subsubsection.3.1.2.4}%
+\contentsline {subsubsection}{\numberline {3.1.2.5}init\_ram()}{7}{subsubsection.3.1.2.5}%
+\contentsline {subsubsection}{\numberline {3.1.2.6}main()}{7}{subsubsection.3.1.2.6}%
+\contentsline {subsubsection}{\numberline {3.1.2.7}mem\_dump()}{8}{subsubsection.3.1.2.7}%
+\contentsline {subsubsection}{\numberline {3.1.2.8}mem\_view()}{8}{subsubsection.3.1.2.8}%
+\contentsline {subsubsection}{\numberline {3.1.2.9}prompt()}{8}{subsubsection.3.1.2.9}%
+\contentsline {subsubsection}{\numberline {3.1.2.10}read()}{8}{subsubsection.3.1.2.10}%
+\contentsline {subsubsection}{\numberline {3.1.2.11}read\_write()}{8}{subsubsection.3.1.2.11}%
+\contentsline {subsubsection}{\numberline {3.1.2.12}view()}{9}{subsubsection.3.1.2.12}%
+\contentsline {subsubsection}{\numberline {3.1.2.13}write()}{9}{subsubsection.3.1.2.13}%
+\contentsline {subsubsection}{\numberline {3.1.2.14}write\_miss\_allocate()}{9}{subsubsection.3.1.2.14}%
+\contentsline {subsection}{\numberline {3.1.3}Variable Documentation}{9}{subsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}associativity}{9}{subsubsection.3.1.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}CACHE}{10}{subsubsection.3.1.3.2}%
+\contentsline {subsubsection}{\numberline {3.1.3.3}cache\_hits}{10}{subsubsection.3.1.3.3}%
+\contentsline {subsubsection}{\numberline {3.1.3.4}cache\_misses}{10}{subsubsection.3.1.3.4}%
+\contentsline {subsubsection}{\numberline {3.1.3.5}cache\_size}{10}{subsubsection.3.1.3.5}%
+\contentsline {subsubsection}{\numberline {3.1.3.6}data\_block\_size}{10}{subsubsection.3.1.3.6}%
+\contentsline {subsubsection}{\numberline {3.1.3.7}FREQUENTS}{10}{subsubsection.3.1.3.7}%
+\contentsline {subsubsection}{\numberline {3.1.3.8}RAM}{11}{subsubsection.3.1.3.8}%
+\contentsline {subsubsection}{\numberline {3.1.3.9}RAM\_end}{11}{subsubsection.3.1.3.9}%
+\contentsline {subsubsection}{\numberline {3.1.3.10}RAM\_start}{11}{subsubsection.3.1.3.10}%
+\contentsline {subsubsection}{\numberline {3.1.3.11}RECENTS}{11}{subsubsection.3.1.3.11}%
+\contentsline {subsubsection}{\numberline {3.1.3.12}replacement\_policy}{11}{subsubsection.3.1.3.12}%
+\contentsline {subsubsection}{\numberline {3.1.3.13}write\_hit\_policy}{11}{subsubsection.3.1.3.13}%
+\contentsline {subsubsection}{\numberline {3.1.3.14}write\_miss\_policy}{11}{subsubsection.3.1.3.14}%
+\contentsline {chapter}{Index}{13}{section*.3}%

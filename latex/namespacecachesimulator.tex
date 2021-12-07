@@ -1,0 +1,361 @@
+\hypertarget{namespacecachesimulator}{}\doxysection{cachesimulator Namespace Reference}
+\label{namespacecachesimulator}\index{cachesimulator@{cachesimulator}}
+
+
+Documentation for this program.  
+
+
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{namespacecachesimulator_af60aa60c0fac6360ca447871dec14bb0}{flush}} ()
+\begin{DoxyCompactList}\small\item\em The flush function. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_a92a0cc2d597b74c0fe4e9c2278503467}{dump}} ()
+\begin{DoxyCompactList}\small\item\em Cache Dump. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_a7d2bcd1c6e78afc0eb649ec8b85326d5}{mem\+\_\+dump}} ()
+\begin{DoxyCompactList}\small\item\em Memory Dump. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_a4b7ef6d79e2cebcc87211cf181ffbb33}{view}} ()
+\begin{DoxyCompactList}\small\item\em Cache View. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_adce26ce26699c290b2dcecf0309393fd}{mem\+\_\+view}} ()
+\begin{DoxyCompactList}\small\item\em Memory View. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_af81a292b82d075b83a2e90ed80f21ccc}{init\+\_\+ram}} ()
+\begin{DoxyCompactList}\small\item\em Initialize Ram. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_a6a4cd052d3f68022b7b432830f15dd90}{config}} ()
+\begin{DoxyCompactList}\small\item\em Configuration Function. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_acd6ed53fb342b573fce5cbca435adc22}{prompt}} ()
+\begin{DoxyCompactList}\small\item\em Prompt. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_abd39d6a129a86765ec5456e6b540ca59}{read\+\_\+write}} (address)
+\begin{DoxyCompactList}\small\item\em Read Writer. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_adaf250f06eae4029e7a1f3b72f6ab262}{read}} (address)
+\begin{DoxyCompactList}\small\item\em Cache Read. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_a6726934c4c0fa43d93aeee974d62200b}{write\+\_\+miss\+\_\+allocate}} (address, data)
+\begin{DoxyCompactList}\small\item\em Write Miss Allocate. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_ab54c4f39d7f4569d6553050d16758fb6}{write}} (address, data)
+\begin{DoxyCompactList}\small\item\em Cache Write. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_acac1c58e4e4f5ee0dfd5c0cd138fc15e}{activate}} ()
+\begin{DoxyCompactList}\small\item\em Activate. \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{namespacecachesimulator_a1ea345601d6fb5f545e59e1b69b1b306}{main}} ()
+\begin{DoxyCompactList}\small\item\em Main. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+list \mbox{\hyperlink{namespacecachesimulator_adc168af81681215531432a5bfceb3ccc}{RAM}} = \mbox{[}$\,$\mbox{]}
+\begin{DoxyCompactList}\small\item\em RAM list. \end{DoxyCompactList}\item 
+list \mbox{\hyperlink{namespacecachesimulator_a699364cc9498add239917c0caeb2e030}{CACHE}} = \mbox{[}$\,$\mbox{]}
+\begin{DoxyCompactList}\small\item\em CACHE list. \end{DoxyCompactList}\item 
+list \mbox{\hyperlink{namespacecachesimulator_aa0ec128c60ee6204541a453de8290f8c}{RECENTS}} = \mbox{[}$\,$\mbox{]}
+\begin{DoxyCompactList}\small\item\em RECENCY queue. \end{DoxyCompactList}\item 
+list \mbox{\hyperlink{namespacecachesimulator_a11c689f0126124490cfe3e31314a65b5}{FREQUENTS}} = \mbox{[}$\,$\mbox{]}
+\begin{DoxyCompactList}\small\item\em FREQUENCY storage. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{namespacecachesimulator_a3b7dabbe2938c182f1254c1f807570dc}{cache\+\_\+size}} = 0
+\begin{DoxyCompactList}\small\item\em Cache Size. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{namespacecachesimulator_a68a961d1ccfac817d294060e41205438}{data\+\_\+block\+\_\+size}} = 0
+\begin{DoxyCompactList}\small\item\em Data Block Size. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{namespacecachesimulator_a32a5816474bfcb9e4e752d385fd3e0aa}{associativity}} = 0
+\begin{DoxyCompactList}\small\item\em Associativity. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{namespacecachesimulator_a227012e2ba8c458024591a93efa80ff7}{replacement\+\_\+policy}} = 0
+\begin{DoxyCompactList}\small\item\em Replacement Policy. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{namespacecachesimulator_a8b9e685eef6605dec44175b77f927818}{write\+\_\+hit\+\_\+policy}} = 0
+\begin{DoxyCompactList}\small\item\em Write Hit Policy. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{namespacecachesimulator_aef93f2ab378918840a835c7581098558}{write\+\_\+miss\+\_\+policy}} = 0
+\begin{DoxyCompactList}\small\item\em Write Miss Policy. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{namespacecachesimulator_af04ad8b4ec6b6fc50aca3a4b07779b43}{cache\+\_\+hits}} = 0
+\begin{DoxyCompactList}\small\item\em Cache Hits. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{namespacecachesimulator_ac35720af499fdb5857f08620d8052929}{cache\+\_\+misses}} = 0
+\begin{DoxyCompactList}\small\item\em Cache Misses. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{namespacecachesimulator_a7b22bcbe05354a9cb5a1c8e357054927}{RAM\+\_\+start}} = \char`\"{}\char`\"{}
+\begin{DoxyCompactList}\small\item\em RAM\+\_\+start. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{namespacecachesimulator_a65ef0f78b21e6cf7db497386d7b5c86b}{RAM\+\_\+end}} = \char`\"{}\char`\"{}
+\begin{DoxyCompactList}\small\item\em RAM\+\_\+end. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Documentation for this program. 
+
+This is the documentation for my cache simulator program. The cache itself is stored as a 3 dimensional python list. The first one is the set, second is the line, and third is the element in each line. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacecachesimulator_acac1c58e4e4f5ee0dfd5c0cd138fc15e}\label{namespacecachesimulator_acac1c58e4e4f5ee0dfd5c0cd138fc15e}} 
+\index{cachesimulator@{cachesimulator}!activate@{activate}}
+\index{activate@{activate}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{activate()}{activate()}}
+{\footnotesize\ttfamily def cachesimulator.\+activate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Activate. 
+
+Final function called by the main. It is responsible for the main flow of the program. It contains an infinite for loop that prompts the user to enter in the command with the prompt function. Then based off of the command that we\textquotesingle{}re given back, it will call one of the functions corresponding to the command. \mbox{\Hypertarget{namespacecachesimulator_a6a4cd052d3f68022b7b432830f15dd90}\label{namespacecachesimulator_a6a4cd052d3f68022b7b432830f15dd90}} 
+\index{cachesimulator@{cachesimulator}!config@{config}}
+\index{config@{config}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{config()}{config()}}
+{\footnotesize\ttfamily def cachesimulator.\+config (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Configuration Function. 
+
+Function called at the start by default. This is when the CACHE list as well as the global variables are initialized. The cache is set based on the global variables. This function also has slight error checking to make sure that some of the configuration inputs are within the bounds of what we want. If the values are invalid, the user is re prompted. \mbox{\Hypertarget{namespacecachesimulator_a92a0cc2d597b74c0fe4e9c2278503467}\label{namespacecachesimulator_a92a0cc2d597b74c0fe4e9c2278503467}} 
+\index{cachesimulator@{cachesimulator}!dump@{dump}}
+\index{dump@{dump}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{dump()}{dump()}}
+{\footnotesize\ttfamily def cachesimulator.\+dump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Cache Dump. 
+
+This function is called by the cache dump command. Essentially it writes the data of each line in the cache to an output file called \textquotesingle{}cache.\+txt\textquotesingle{}. \mbox{\Hypertarget{namespacecachesimulator_af60aa60c0fac6360ca447871dec14bb0}\label{namespacecachesimulator_af60aa60c0fac6360ca447871dec14bb0}} 
+\index{cachesimulator@{cachesimulator}!flush@{flush}}
+\index{flush@{flush}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{flush()}{flush()}}
+{\footnotesize\ttfamily def cachesimulator.\+flush (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+The flush function. 
+
+This function is called when we use the command cache flush. It loops through the three dimensions of the cache list. On each line of a set, it will write the data in the line back to the ram if the dirty bit is one. Then afterwards regardless, it will clear all the values in the cache and set them back to 0 or 00. \mbox{\Hypertarget{namespacecachesimulator_af81a292b82d075b83a2e90ed80f21ccc}\label{namespacecachesimulator_af81a292b82d075b83a2e90ed80f21ccc}} 
+\index{cachesimulator@{cachesimulator}!init\_ram@{init\_ram}}
+\index{init\_ram@{init\_ram}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{init\_ram()}{init\_ram()}}
+{\footnotesize\ttfamily def cachesimulator.\+init\+\_\+ram (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initialize Ram. 
+
+Function called at the start of the program. The program will start with initializing the memory. The memory is always 256 bytes. The function will prompt you for a command to initialize the ram along with the start of the ram that we\textquotesingle{}re copying in and the ending address. The starting address will always be 0x00. Then based off of the ending address it will load in values from the input to the simulated ram in the program. \mbox{\Hypertarget{namespacecachesimulator_a1ea345601d6fb5f545e59e1b69b1b306}\label{namespacecachesimulator_a1ea345601d6fb5f545e59e1b69b1b306}} 
+\index{cachesimulator@{cachesimulator}!main@{main}}
+\index{main@{main}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily def cachesimulator.\+main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main. 
+
+Main function. Is called if this file is the main file that is run. It will call Initialize RAM, then call the Config function, then call the Activate function. \mbox{\Hypertarget{namespacecachesimulator_a7d2bcd1c6e78afc0eb649ec8b85326d5}\label{namespacecachesimulator_a7d2bcd1c6e78afc0eb649ec8b85326d5}} 
+\index{cachesimulator@{cachesimulator}!mem\_dump@{mem\_dump}}
+\index{mem\_dump@{mem\_dump}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{mem\_dump()}{mem\_dump()}}
+{\footnotesize\ttfamily def cachesimulator.\+mem\+\_\+dump (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Memory Dump. 
+
+Function for dumping the contents of the simulated RAM into a text file named \textquotesingle{}ram.\+txt\textquotesingle{} \mbox{\Hypertarget{namespacecachesimulator_adce26ce26699c290b2dcecf0309393fd}\label{namespacecachesimulator_adce26ce26699c290b2dcecf0309393fd}} 
+\index{cachesimulator@{cachesimulator}!mem\_view@{mem\_view}}
+\index{mem\_view@{mem\_view}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{mem\_view()}{mem\_view()}}
+{\footnotesize\ttfamily def cachesimulator.\+mem\+\_\+view (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Memory View. 
+
+Function to view the current contents of the memory in the console. Will print it out. Prints out the size as well as the content. Has addresses on the left with the values on the right. Every line contains eight values with the address going by eights. \mbox{\Hypertarget{namespacecachesimulator_acd6ed53fb342b573fce5cbca435adc22}\label{namespacecachesimulator_acd6ed53fb342b573fce5cbca435adc22}} 
+\index{cachesimulator@{cachesimulator}!prompt@{prompt}}
+\index{prompt@{prompt}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{prompt()}{prompt()}}
+{\footnotesize\ttfamily def cachesimulator.\+prompt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Prompt. 
+
+All this function is used for is to print out the prompt and wait for an input. This is called by default by the infinite loop that controls the flow of this program. Once a value has been given, it will then return the value, which will then be used by the main logic. \mbox{\Hypertarget{namespacecachesimulator_adaf250f06eae4029e7a1f3b72f6ab262}\label{namespacecachesimulator_adaf250f06eae4029e7a1f3b72f6ab262}} 
+\index{cachesimulator@{cachesimulator}!read@{read}}
+\index{read@{read}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{read()}{read()}}
+{\footnotesize\ttfamily def cachesimulator.\+read (\begin{DoxyParamCaption}\item[{}]{address }\end{DoxyParamCaption})}
+
+
+
+Cache Read. 
+
+This function is the main logic for the cache read function. This is called when we specify the command cache read. First it gets the tag, set index, and block offset from the input address. Then it checks if it\textquotesingle{}s a hit or not. If it\textquotesingle{}s a hit, it will read what we want from the line and output it along with some other information otherwise it will call the read write function if it\textquotesingle{}s a miss. \mbox{\Hypertarget{namespacecachesimulator_abd39d6a129a86765ec5456e6b540ca59}\label{namespacecachesimulator_abd39d6a129a86765ec5456e6b540ca59}} 
+\index{cachesimulator@{cachesimulator}!read\_write@{read\_write}}
+\index{read\_write@{read\_write}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{read\_write()}{read\_write()}}
+{\footnotesize\ttfamily def cachesimulator.\+read\+\_\+write (\begin{DoxyParamCaption}\item[{}]{address }\end{DoxyParamCaption})}
+
+
+
+Read Writer. 
+
+This function is called whenever we have a read miss in the cache. When this happens, we need to take the values from the RAM and throw them into the cache. It checks first if there\textquotesingle{}s an invalid line in that set. If there is, then we write over the invalid. Otherwise we\textquotesingle{}ll choose a block to evict based on policy and then evict that line to make room for the new one. \mbox{\Hypertarget{namespacecachesimulator_a4b7ef6d79e2cebcc87211cf181ffbb33}\label{namespacecachesimulator_a4b7ef6d79e2cebcc87211cf181ffbb33}} 
+\index{cachesimulator@{cachesimulator}!view@{view}}
+\index{view@{view}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{view()}{view()}}
+{\footnotesize\ttfamily def cachesimulator.\+view (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Cache View. 
+
+Function for printing to the console the current contents of the cache. It will print the basic information of the cache such as sizes or replacement policies in place. Then it will loop through the entire cache and print out the contents. \mbox{\Hypertarget{namespacecachesimulator_ab54c4f39d7f4569d6553050d16758fb6}\label{namespacecachesimulator_ab54c4f39d7f4569d6553050d16758fb6}} 
+\index{cachesimulator@{cachesimulator}!write@{write}}
+\index{write@{write}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily def cachesimulator.\+write (\begin{DoxyParamCaption}\item[{}]{address,  }\item[{}]{data }\end{DoxyParamCaption})}
+
+
+
+Cache Write. 
+
+This is the function called when we use the command cache write. What it does is first check if it\textquotesingle{}s a hit or miss. On a hit it will update the dirty bit based off of policy and either write to cache or write to both memory and cache. Otherwise on a miss it will either write directly to the address in the ram or call the write allocate function based off of the write miss policy. \mbox{\Hypertarget{namespacecachesimulator_a6726934c4c0fa43d93aeee974d62200b}\label{namespacecachesimulator_a6726934c4c0fa43d93aeee974d62200b}} 
+\index{cachesimulator@{cachesimulator}!write\_miss\_allocate@{write\_miss\_allocate}}
+\index{write\_miss\_allocate@{write\_miss\_allocate}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{write\_miss\_allocate()}{write\_miss\_allocate()}}
+{\footnotesize\ttfamily def cachesimulator.\+write\+\_\+miss\+\_\+allocate (\begin{DoxyParamCaption}\item[{}]{address,  }\item[{}]{data }\end{DoxyParamCaption})}
+
+
+
+Write Miss Allocate. 
+
+Function to do the logic for write miss if we are using the write allocate policy. This is called when we have a write miss. A lot of this logic is similar to having a read miss. We\textquotesingle{}ll first find an invalid line and try to replace that first. Otherwise what it will do is based off of the replacement policy it will evict the line and replace it with the new wanted data. 
+
+\doxysubsection{Variable Documentation}
+\mbox{\Hypertarget{namespacecachesimulator_a32a5816474bfcb9e4e752d385fd3e0aa}\label{namespacecachesimulator_a32a5816474bfcb9e4e752d385fd3e0aa}} 
+\index{cachesimulator@{cachesimulator}!associativity@{associativity}}
+\index{associativity@{associativity}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{associativity}{associativity}}
+{\footnotesize\ttfamily int cachesimulator.\+associativity = 0}
+
+
+
+Associativity. 
+
+Global variable for associativity. \mbox{\Hypertarget{namespacecachesimulator_a699364cc9498add239917c0caeb2e030}\label{namespacecachesimulator_a699364cc9498add239917c0caeb2e030}} 
+\index{cachesimulator@{cachesimulator}!CACHE@{CACHE}}
+\index{CACHE@{CACHE}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{CACHE}{CACHE}}
+{\footnotesize\ttfamily list cachesimulator.\+CACHE = \mbox{[}$\,$\mbox{]}}
+
+
+
+CACHE list. 
+
+A three dimensional list. Used to store the values in the cache. The first dimension is the set. The second is the line in the set. The third is the item in the line. The first two items are the valid and the dirty bit. The third is the tag. Then the remaining elements are the memory bytes stored in the cache. \mbox{\Hypertarget{namespacecachesimulator_af04ad8b4ec6b6fc50aca3a4b07779b43}\label{namespacecachesimulator_af04ad8b4ec6b6fc50aca3a4b07779b43}} 
+\index{cachesimulator@{cachesimulator}!cache\_hits@{cache\_hits}}
+\index{cache\_hits@{cache\_hits}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{cache\_hits}{cache\_hits}}
+{\footnotesize\ttfamily int cachesimulator.\+cache\+\_\+hits = 0}
+
+
+
+Cache Hits. 
+
+Global variable to store the amount of cache hits. \mbox{\Hypertarget{namespacecachesimulator_ac35720af499fdb5857f08620d8052929}\label{namespacecachesimulator_ac35720af499fdb5857f08620d8052929}} 
+\index{cachesimulator@{cachesimulator}!cache\_misses@{cache\_misses}}
+\index{cache\_misses@{cache\_misses}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{cache\_misses}{cache\_misses}}
+{\footnotesize\ttfamily int cachesimulator.\+cache\+\_\+misses = 0}
+
+
+
+Cache Misses. 
+
+Global variable to store the amount of cache misses. \mbox{\Hypertarget{namespacecachesimulator_a3b7dabbe2938c182f1254c1f807570dc}\label{namespacecachesimulator_a3b7dabbe2938c182f1254c1f807570dc}} 
+\index{cachesimulator@{cachesimulator}!cache\_size@{cache\_size}}
+\index{cache\_size@{cache\_size}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{cache\_size}{cache\_size}}
+{\footnotesize\ttfamily int cachesimulator.\+cache\+\_\+size = 0}
+
+
+
+Cache Size. 
+
+Global variable for the cache size. \mbox{\Hypertarget{namespacecachesimulator_a68a961d1ccfac817d294060e41205438}\label{namespacecachesimulator_a68a961d1ccfac817d294060e41205438}} 
+\index{cachesimulator@{cachesimulator}!data\_block\_size@{data\_block\_size}}
+\index{data\_block\_size@{data\_block\_size}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{data\_block\_size}{data\_block\_size}}
+{\footnotesize\ttfamily int cachesimulator.\+data\+\_\+block\+\_\+size = 0}
+
+
+
+Data Block Size. 
+
+Global variable to store the data block size. \mbox{\Hypertarget{namespacecachesimulator_a11c689f0126124490cfe3e31314a65b5}\label{namespacecachesimulator_a11c689f0126124490cfe3e31314a65b5}} 
+\index{cachesimulator@{cachesimulator}!FREQUENTS@{FREQUENTS}}
+\index{FREQUENTS@{FREQUENTS}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{FREQUENTS}{FREQUENTS}}
+{\footnotesize\ttfamily list cachesimulator.\+FREQUENTS = \mbox{[}$\,$\mbox{]}}
+
+
+
+FREQUENCY storage. 
+
+A list used to store how many times a particular line is used. That is stored as a simple integer. In the LFU policy, the line with the lowest frequency count will be replaced. \mbox{\Hypertarget{namespacecachesimulator_adc168af81681215531432a5bfceb3ccc}\label{namespacecachesimulator_adc168af81681215531432a5bfceb3ccc}} 
+\index{cachesimulator@{cachesimulator}!RAM@{RAM}}
+\index{RAM@{RAM}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{RAM}{RAM}}
+{\footnotesize\ttfamily list cachesimulator.\+RAM = \mbox{[}$\,$\mbox{]}}
+
+
+
+RAM list. 
+
+A list used to store the values in the 256 byte RAM. These are represented as two character strings. \mbox{\Hypertarget{namespacecachesimulator_a65ef0f78b21e6cf7db497386d7b5c86b}\label{namespacecachesimulator_a65ef0f78b21e6cf7db497386d7b5c86b}} 
+\index{cachesimulator@{cachesimulator}!RAM\_end@{RAM\_end}}
+\index{RAM\_end@{RAM\_end}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{RAM\_end}{RAM\_end}}
+{\footnotesize\ttfamily string cachesimulator.\+RAM\+\_\+end = \char`\"{}\char`\"{}}
+
+
+
+RAM\+\_\+end. 
+
+Used only one to determine the end when initializing RAM. \mbox{\Hypertarget{namespacecachesimulator_a7b22bcbe05354a9cb5a1c8e357054927}\label{namespacecachesimulator_a7b22bcbe05354a9cb5a1c8e357054927}} 
+\index{cachesimulator@{cachesimulator}!RAM\_start@{RAM\_start}}
+\index{RAM\_start@{RAM\_start}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{RAM\_start}{RAM\_start}}
+{\footnotesize\ttfamily string cachesimulator.\+RAM\+\_\+start = \char`\"{}\char`\"{}}
+
+
+
+RAM\+\_\+start. 
+
+Used only shortly to determine the start when initializing RAM. \mbox{\Hypertarget{namespacecachesimulator_aa0ec128c60ee6204541a453de8290f8c}\label{namespacecachesimulator_aa0ec128c60ee6204541a453de8290f8c}} 
+\index{cachesimulator@{cachesimulator}!RECENTS@{RECENTS}}
+\index{RECENTS@{RECENTS}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{RECENTS}{RECENTS}}
+{\footnotesize\ttfamily list cachesimulator.\+RECENTS = \mbox{[}$\,$\mbox{]}}
+
+
+
+RECENCY queue. 
+
+Queue used for the least recently used replacement policy. Has two dimensions. One is used for the set. In that inner list, it will store a queue of lines. This is in order of which one was accessed least recently. With the most recent one being the last one. \mbox{\Hypertarget{namespacecachesimulator_a227012e2ba8c458024591a93efa80ff7}\label{namespacecachesimulator_a227012e2ba8c458024591a93efa80ff7}} 
+\index{cachesimulator@{cachesimulator}!replacement\_policy@{replacement\_policy}}
+\index{replacement\_policy@{replacement\_policy}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{replacement\_policy}{replacement\_policy}}
+{\footnotesize\ttfamily int cachesimulator.\+replacement\+\_\+policy = 0}
+
+
+
+Replacement Policy. 
+
+Global variable for replacement policy. \mbox{\Hypertarget{namespacecachesimulator_a8b9e685eef6605dec44175b77f927818}\label{namespacecachesimulator_a8b9e685eef6605dec44175b77f927818}} 
+\index{cachesimulator@{cachesimulator}!write\_hit\_policy@{write\_hit\_policy}}
+\index{write\_hit\_policy@{write\_hit\_policy}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{write\_hit\_policy}{write\_hit\_policy}}
+{\footnotesize\ttfamily int cachesimulator.\+write\+\_\+hit\+\_\+policy = 0}
+
+
+
+Write Hit Policy. 
+
+Global variable for write hit policy. \mbox{\Hypertarget{namespacecachesimulator_aef93f2ab378918840a835c7581098558}\label{namespacecachesimulator_aef93f2ab378918840a835c7581098558}} 
+\index{cachesimulator@{cachesimulator}!write\_miss\_policy@{write\_miss\_policy}}
+\index{write\_miss\_policy@{write\_miss\_policy}!cachesimulator@{cachesimulator}}
+\doxysubsubsection{\texorpdfstring{write\_miss\_policy}{write\_miss\_policy}}
+{\footnotesize\ttfamily int cachesimulator.\+write\+\_\+miss\+\_\+policy = 0}
+
+
+
+Write Miss Policy. 
+
+Global variable for write miss policy. 

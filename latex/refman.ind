@@ -1,0 +1,116 @@
+\begin{theindex}
+
+  \item {activate}
+    \subitem {cachesimulator}, \hyperpage{6}
+  \item {associativity}
+    \subitem {cachesimulator}, \hyperpage{9}
+
+  \indexspace
+
+  \item {CACHE}
+    \subitem {cachesimulator}, \hyperpage{9}
+  \item {cache\_hits}
+    \subitem {cachesimulator}, \hyperpage{10}
+  \item {cache\_misses}
+    \subitem {cachesimulator}, \hyperpage{10}
+  \item {cache\_size}
+    \subitem {cachesimulator}, \hyperpage{10}
+  \item {cachesimulator}, \hyperpage{5}
+    \subitem {activate}, \hyperpage{6}
+    \subitem {associativity}, \hyperpage{9}
+    \subitem {CACHE}, \hyperpage{9}
+    \subitem {cache\_hits}, \hyperpage{10}
+    \subitem {cache\_misses}, \hyperpage{10}
+    \subitem {cache\_size}, \hyperpage{10}
+    \subitem {config}, \hyperpage{6}
+    \subitem {data\_block\_size}, \hyperpage{10}
+    \subitem {dump}, \hyperpage{7}
+    \subitem {flush}, \hyperpage{7}
+    \subitem {FREQUENTS}, \hyperpage{10}
+    \subitem {init\_ram}, \hyperpage{7}
+    \subitem {main}, \hyperpage{7}
+    \subitem {mem\_dump}, \hyperpage{7}
+    \subitem {mem\_view}, \hyperpage{8}
+    \subitem {prompt}, \hyperpage{8}
+    \subitem {RAM}, \hyperpage{10}
+    \subitem {RAM\_end}, \hyperpage{11}
+    \subitem {RAM\_start}, \hyperpage{11}
+    \subitem {read}, \hyperpage{8}
+    \subitem {read\_write}, \hyperpage{8}
+    \subitem {RECENTS}, \hyperpage{11}
+    \subitem {replacement\_policy}, \hyperpage{11}
+    \subitem {view}, \hyperpage{8}
+    \subitem {write}, \hyperpage{9}
+    \subitem {write\_hit\_policy}, \hyperpage{11}
+    \subitem {write\_miss\_allocate}, \hyperpage{9}
+    \subitem {write\_miss\_policy}, \hyperpage{11}
+  \item {config}
+    \subitem {cachesimulator}, \hyperpage{6}
+
+  \indexspace
+
+  \item {data\_block\_size}
+    \subitem {cachesimulator}, \hyperpage{10}
+  \item {dump}
+    \subitem {cachesimulator}, \hyperpage{7}
+
+  \indexspace
+
+  \item {flush}
+    \subitem {cachesimulator}, \hyperpage{7}
+  \item {FREQUENTS}
+    \subitem {cachesimulator}, \hyperpage{10}
+
+  \indexspace
+
+  \item {init\_ram}
+    \subitem {cachesimulator}, \hyperpage{7}
+
+  \indexspace
+
+  \item {main}
+    \subitem {cachesimulator}, \hyperpage{7}
+  \item {mem\_dump}
+    \subitem {cachesimulator}, \hyperpage{7}
+  \item {mem\_view}
+    \subitem {cachesimulator}, \hyperpage{8}
+
+  \indexspace
+
+  \item {prompt}
+    \subitem {cachesimulator}, \hyperpage{8}
+
+  \indexspace
+
+  \item {RAM}
+    \subitem {cachesimulator}, \hyperpage{10}
+  \item {RAM\_end}
+    \subitem {cachesimulator}, \hyperpage{11}
+  \item {RAM\_start}
+    \subitem {cachesimulator}, \hyperpage{11}
+  \item {read}
+    \subitem {cachesimulator}, \hyperpage{8}
+  \item {read\_write}
+    \subitem {cachesimulator}, \hyperpage{8}
+  \item {RECENTS}
+    \subitem {cachesimulator}, \hyperpage{11}
+  \item {replacement\_policy}
+    \subitem {cachesimulator}, \hyperpage{11}
+
+  \indexspace
+
+  \item {view}
+    \subitem {cachesimulator}, \hyperpage{8}
+
+  \indexspace
+
+  \item {write}
+    \subitem {cachesimulator}, \hyperpage{9}
+  \item {write\_hit\_policy}
+    \subitem {cachesimulator}, \hyperpage{11}
+  \item {write\_miss\_allocate}
+    \subitem {cachesimulator}, \hyperpage{9}
+  \item {write\_miss\_policy}
+    \subitem {cachesimulator}, \hyperpage{11}
+
+\end{theindex}
